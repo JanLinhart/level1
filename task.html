@@ -1,0 +1,210 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://advert.performax.cz/milos/task-junior/styles.css">
+    <title>Task</title>
+  </head>
+  <body>
+  	
+  	<div class="main-wrap">
+  		<div class="content-wrap">
+	  		<div class="article-list">
+	  			<div class="article">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  			<div class="article">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  			<div class="article">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  			<div class="article">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  			<div class="article">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  			<div class="article">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  		</div>
+  		</div>
+  		<div class="side-wrap">
+  		</div>
+  		
+  	</div>
+  	<div class="bottom-wrap">
+  			<div class="article-list-bottom">
+	  			<div class="article-bottom">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  			<div class="article-bottom">
+	  				<div class="img-wrap">
+	  					<div class="img"></div>
+	  				</div>
+	  				<div class="text-wrap">
+		  				<h1>Article title</h1>
+		  				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p>
+		  			</div>	 			
+	  			</div>
+	  		</div>
+  		</div>
+
+     
+      <script>
+const articles=document.querySelectorAll('.article')
+		for (i = 0; i < articles.length; i++) {
+		if(i/3==1 || i/1==1){
+			articles[i].insertAdjacentHTML('afterend', '<div class="ad"><div class="ad-img-wrap"><div class="ad-img"></div></div><div class="ad-text-wrap"><h1>Reklamní jednotka</h1>	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p></div>	<a class="arrow right"></a> 			</div>');
+		}
+		}
+const bottom_articles=document.querySelectorAll('.article-bottom')
+          for (i = 0; i < bottom_articles.length; i++) {
+            if(i/1==1){
+                bottom_articles[i].insertAdjacentHTML('beforebegin', '<div class="ad-bottom"><div class="ad-img-wrap-bottom"><div class="ad-img-bottom"></div></div><div class="ad-text-wrap-bottom"><h1>Reklamní jednotka</h1>	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.</p></div>	 			</div>');
+            }
+}
+
+
+		var para = document.createElement("div");
+		para.className="side-square"
+
+		var para2 = document.createElement("h1");
+		var node2 = document.createTextNode("Reklamní jednotka");
+		para2.appendChild(node2);
+
+		var para3 = document.createElement("p");
+		var node3 = document.createTextNode("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem.");
+		para3.appendChild(node3);
+		para3.className="para3"
+	
+
+var sidebar=document.getElementsByClassName('side-wrap')
+for(var i = 0; i < sidebar.length; i++) {
+	sidebar[i].appendChild(para);
+	sidebar[i].appendChild(para2);
+	sidebar[i].appendChild(para3);
+
+}
+
+		
+		
+
+
+
+
+		
+
+
+      </script>
+<style>
+    .ad{
+        display:flex;
+		border-bottom: 1px solid #EDEDED;
+		align-items:center;
+    }
+    .ad .ad-img-wrap .ad-img{
+       
+		width:244.7px;
+        height: 152px;
+        background-color: #F5A211;
+		margin:10px 10px 10px 0px;
+    }
+	.ad .ad-text-wrap{
+		
+		margin:10px 0px 0px 0px;
+	}
+	.arrow {
+  text-align: center;
+  background: #F5A211;
+  max-width: 40%;
+  margin:0px 30px 0px 10px;
+  position: relative;
+}
+
+.arrow::before {
+  content: '';
+  position: absolute;
+
+  display: block;
+  border-right: 5px solid #F5A211;
+  border-bottom: 5px solid #F5A211;
+  width: 45px;
+  height: 45px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+	.ad-img-wrap-bottom{
+		flex-basis:30%;
+		margin-bottom: 10px;
+        height: 152px;
+        background-color: #F5A211;
+		
+	}
+	.side-square{
+		height:300px;
+		width:95%;
+		background-color:#F5A211;
+		margin-top: 50px;
+		
+		
+	}
+	.side-wrap{
+		display:flex;
+		flex-direction: column;
+		justify-content: start;
+	}
+	.para3{
+		margin:10px;
+	}
+
+
+
+	
+</style>
+  </body>
+</html>
